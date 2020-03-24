@@ -9,16 +9,18 @@ export const Kalkulator = () => {
   const [isOppfyllerInntekstkrav, setOppfyllerInntekstkrav] = useState(false);
   const [periodeAntallUker, setPeriodeAntallUker] = useState(0);
   const [ukesats, setUkesats] = useState(0);
+  const [regelBrukt, setRegelBrukt] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const { data = {} } = await getBehov();
         if (data) {
-          const { oppfyllerMinsteinntekt, periodeAntallUker: uker, ukesats: sats } = data;
+          const { oppfyllerMinsteinntekt, periodeAntallUker: uker, ukesats: sats, regelBrukt } = data;
           setOppfyllerInntekstkrav(oppfyllerMinsteinntekt);
           setPeriodeAntallUker(uker);
           setUkesats(sats);
+          setRegelBrukt(regelBrukt);
           setLoading(false);
         }
       } catch (error) {

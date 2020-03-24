@@ -1,5 +1,6 @@
 {
   "oppfyllerMinsteinntekt": true,
   "ukesats": 3000.0,
-  "periodeAntallUker": 52
+  "periodeAntallUker": 52,
+  "regelBrukt": "corona"
 }
