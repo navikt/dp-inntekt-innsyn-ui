@@ -16,11 +16,11 @@ export const Kalkulator = () => {
       try {
         const { data = {} } = await getBehov();
         if (data) {
-          const { oppfyllerMinsteinntekt, periodeAntallUker: uker, ukesats: sats, regelBrukt } = data;
+          const { oppfyllerMinsteinntekt, periodeAntallUker: uker, ukesats: sats, regelBrukt: regel } = data;
           setOppfyllerInntekstkrav(oppfyllerMinsteinntekt);
           setPeriodeAntallUker(uker);
           setUkesats(sats);
-          setRegelBrukt(regelBrukt);
+          setRegelBrukt(regel);
           setLoading(false);
         }
       } catch (error) {
@@ -38,6 +38,7 @@ export const Kalkulator = () => {
     isOppfyllerInntekstkrav,
     ukesats,
   });
+
 
   return <QualifiedMessage isOppfyllerInntekstkrav={isOppfyllerInntekstkrav} ukesats={ukesats} periodeAntallUker={periodeAntallUker} />;
 };
