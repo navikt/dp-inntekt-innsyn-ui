@@ -1,8 +1,8 @@
 import React from 'react';
 import { Element, Normaltekst, Undertittel } from 'nav-frontend-typografi';
 import { useTranslation, Trans } from 'react-i18next';
-import tracking from '../lib/tracking';
-import { LENKER } from '../lib/constants';
+import tracking from '../../lib/tracking';
+import { LENKER } from '../../lib/constants';
 
 const NegativeResponse = () => {
   const { t } = useTranslation();

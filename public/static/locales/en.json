@@ -44,5 +44,9 @@
     "500": "Ingen svar",
     "502": "Sorry, something went wrong with the calculation",
     "504": "Sorry, we did not manage to calculate your income, this is usually a problem with contacting the Tax-authority."
+  },
+  "NEDREINFOBOKS": {
+    "CORONA": "<0>Er du permittert på grunn av coronaviruset kan du lese mer om dine rettigheter her</0>",
+    "SKATTEKORT": "Når jobbsituasjonen din endrer seg kan det påvirke hvor mye du skal trekkes i skatt. Derfor er det viktig at du kontrollerer skattekortet ditt slik at du ikke trekker for mye eller for lite i skatt. <0>Kontroller skattekortet ditt.</0>"
   }
 }

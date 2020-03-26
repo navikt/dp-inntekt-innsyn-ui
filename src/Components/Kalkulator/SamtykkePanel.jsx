@@ -4,9 +4,9 @@ import Panel from 'nav-frontend-paneler';
 import { Hovedknapp } from 'nav-frontend-knapper';
 import { useTranslation, Trans } from 'react-i18next';
 import { Normaltekst, Innholdstittel } from 'nav-frontend-typografi';
-import tracking from '../lib/tracking';
-import Spacer from '../Components/Spacer';
-import { LENKER } from '../lib/constants';
+import tracking from '../../lib/tracking';
+import Spacer from '../Spacer';
+import { LENKER } from '../../lib/constants';
 
 export const SamtykkePanel = ({ onClickCallback }) => {
   const { t } = useTranslation();

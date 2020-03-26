@@ -4,13 +4,14 @@ import { useTranslation } from 'react-i18next';
 import AlertStripe from 'nav-frontend-alertstriper';
 import Header from '../Components/Header';
 import BackButton from '../Components/BackButton';
-import SamtykkePanel from '../Kalkulator/SamtykkePanel';
+import SamtykkePanel from '../Components/Kalkulator/SamtykkePanel';
 import Spacer from '../Components/Spacer';
-import Kalkulator from '../Kalkulator/Kalkulator';
+import Kalkulator from '../Components/Kalkulator/Kalkulator';
 import ErrorBoundary from '../Components/ErrorBoundary';
 import { instance } from '../Api';
 import tracking from '../lib/tracking';
 import './App.css';
+import NedreInformasjonsBoks from "../Components/NedreInformajonsBoks/NedreInformasjonsBoks";
 
 // sentry
 const environment = window.location.hostname;
@@ -45,6 +46,8 @@ export const App = () => {
         <AlertStripe type="advarsel">{t('APP.CORONA_INFO')}</AlertStripe>
         <Spacer twentyPx />
         <ErrorBoundary apiErrors={errors}>{isSamtykke || hasSamtykke ? <Kalkulator /> : <SamtykkePanel onClickCallback={handleSetSamtykke} />}</ErrorBoundary>
+        <Spacer twentyPx />
+        <NedreInformasjonsBoks/>
         <Spacer twentyPx />
         <BackButton />
         <Spacer twentyPx />

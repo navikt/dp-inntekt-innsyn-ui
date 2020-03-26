@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Element, Normaltekst, Innholdstittel } from 'nav-frontend-typografi';
 import { useTranslation, Trans } from 'react-i18next';
-import tracking from '../lib/tracking';
-import { LENKER } from '../lib/constants';
+import tracking from '../../lib/tracking';
+import { LENKER } from '../../lib/constants';
 
 export const PositiveResponse = ({ ukesats, periodeAntallUker }) => {
   const { t } = useTranslation();

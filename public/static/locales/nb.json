@@ -46,5 +46,9 @@
     "502": "Beklager, det har skjedd en feil. Prøv igjen senere.",
     "504": "Beklager, vi fikk ikke til å hente inntektsopplysningene dine. Prøv igjen senere.",
     "UNDEFINED": "Beklager, det har skjedd en feil. Prøv igjen senere."
+  },
+  "NEDREINFOBOKS": {
+    "CORONA": "<0>Er du permittert på grunn av coronaviruset kan du lese mer om dine rettigheter her</0>",
+    "SKATTEKORT": "Når jobbsituasjonen din endrer seg kan det påvirke hvor mye du skal trekkes i skatt. Derfor er det viktig at du kontrollerer skattekortet ditt slik at du ikke trekker for mye eller for lite i skatt. <0>Kontroller skattekortet ditt.</0>"
   }
 }

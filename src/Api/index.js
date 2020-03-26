@@ -22,7 +22,7 @@ export const verifyToken = async () => {
 };
 
 export const getBehov = async () => {
-  if (1 === 1 && process.env.NODE_ENV === 'development') {
+  if (1 === 2 && process.env.NODE_ENV === 'development') {
     try {
       return await instance({
         method: 'get',

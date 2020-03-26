@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import App from '../App';
-import { SamtykkePanel } from '../../Kalkulator/SamtykkePanel';
-import Kalkulator from '../../Kalkulator/Kalkulator';
+import { SamtykkePanel } from '../../Components/Kalkulator/SamtykkePanel';
+import Kalkulator from '../../Components/Kalkulator/Kalkulator';
 
 // todo mocke i18next skikkelig opp
 jest.mock('../../lib/i18n');

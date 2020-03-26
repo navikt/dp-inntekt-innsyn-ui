@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import { Kalkulator } from '../Kalkulator';
-import LoadingMessage from '../../Components/LoadingMessage';
+import LoadingMessage from '../../LoadingMessage';
 
 describe('Kalkulator', () => {
   it('Skal vise laster siden', () => {
