@@ -1,7 +1,7 @@
 {
   "APP": {
     "BETA": "Denne siden er under testing.",
-    "CORONA_INFO": "Kalkulatoren tar ikke hensyn til regler innført av regjeringen 16.03.2020"
+    "CORONA_INFO": "Kalkulatoren er oppdatert etter gjeldende regelverk. Er du permittert vil ikke kalkulatoren gi svar på hvor mye du vil få utbetalt de 20 første dagene."
   },
   "SAMTYKKEPANEL": {
     "HENTER_INFO_FRA_SKATTEETAEN_TITTEL": "Vi henter informasjon om inntekten din fra Skatteetaten",
