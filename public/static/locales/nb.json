@@ -19,7 +19,8 @@
     "INFO": "Vi henter informasjonen om inntekten din fra Skatteetaten."
   },
   "FELLES": {
-    "ANBEFALER_SENDE_SØKNAD_ANTALL_UKER": "Dagpengekalkulatoren gir ikke juridisk svar på om du har rett til <0>dagpenger</0>. Du bør derfor uansett sende <1>søknad om dagpenger</1> én uke før du blir arbeidsledig"
+    "ANBEFALER_SENDE_SØKNAD_ANTALL_UKER": "Du bør derfor uansett sende <0>søknad om dagpenger</0> én uke før du blir arbeidsledig",
+    "IKKE_JURIDISK_SVAR": "Dagpengekalkulatoren gir ikke juridisk svar på om du har rett til <0>dagpenger</0>."
   },
   "NEGATIVERESPONSE": {
     "RISIKERER_AVSLAG_GRUNNET_LAV_INNTEKT": "Søker du om dagpenger fra i dag, risikerer du å få avslag på grunn av for lav inntekt.",

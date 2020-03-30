@@ -19,6 +19,10 @@
     "INFO": "We are now loading the information we have about your income that sets the foundation for your estimate of dagpenger.",
     "VENNLIGST_VENT": "Please wait up to two minutes before refreshing the page."
   },
+  "FELLES": {
+    "ANBEFALER_SENDE_SØKNAD_ANTALL_UKER": "Du bør derfor uansett sende <0>søknad om dagpenger</0> én uke før du blir arbeidsledig",
+    "IKKE_JURIDISK_SVAR": "Dagpengekalkulatoren gir ikke juridisk svar på om du har rett til <0>dagpenger</0>."
+  },
   "NEGATIVERESPONSE": {
     "RISIKERER_AVSLAG_GRUNNET_LAV_INNTEKT": "If you apply for dagpenger from today, you're risking refusal because of too low income.",
     "BEREGNING_BASERT_PÅ_INNTEKTSOPPLYSNINGER": "The calculation is based on incomeinformation from <0>skatteetaten.no/mineinntekter</0>. If the information in incorrect, it has to be corrected.",
